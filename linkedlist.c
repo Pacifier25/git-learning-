@@ -283,7 +283,7 @@ void merge(struct node *p,struct node *q )
         }
     }
 }
-int isloop(struct node *p)
+/*int isloop(struct node *p)
 {
     struct node *q,*r;
     q = r = p;
@@ -303,6 +303,7 @@ int isloop(struct node *p)
             return 0;
     }
 }
+*/
 int main()
 {
 
